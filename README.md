@@ -47,6 +47,8 @@ cd riftlink
 cp .env.sample .env
 bundle install
 yarn install
+# Skip if PG already available
+sudo apt install libpq-dev
 bin/setup
 rails db:setup
 ```

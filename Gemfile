@@ -71,3 +71,5 @@ gem 'phlex-rails', '~> 2.1', :github => 'phlex-ruby/phlex-rails'
 gem 'tailwind_merge', '~> 1.1'
 
 gem 'kube-dsl', '~> 0.8.3'
+
+gem "pg", "~> 1.5"
