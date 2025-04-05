@@ -14,3 +14,6 @@ Style/StringLiterals:
 
 Style/ClassAndModuleChildren:
   EnforcedStyle: nested
+
+Style/HashLikeCase:
+  enabled: false
