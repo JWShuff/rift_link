@@ -38,6 +38,9 @@ gem 'dotenv', '~> 3.1'
 gem 'literal'
 gem 'phlex-icons'
 
+gem 'active_storage-blurhash'
+gem 'image_processing'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
@@ -56,6 +59,7 @@ group :development do
   gem 'colorize'
   gem 'ruby_ui', require: false, github: 'ruby-ui/ruby_ui', branch: 'main'
   gem 'annotaterb'
+  gem 'letter_opener'
 end
 
 group :test do

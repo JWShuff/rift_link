@@ -2,14 +2,15 @@
 
 class HomeController < ApplicationController
   def index
-    render Views::Home::Index.new(activities:, realms:)
+    render Views::Home::Index.new(activities:, realms:, flash:)
   end
 
   def show
+    render Views::Home::Show.new(flash:)
   end
 
   def sidenav
-    render Views::Home::Sidenav.new(realms:, pinned_realms:, my_realms:, direct_messages:,)
+    render Views::Home::Sidenav.new(realms:, pinned_realms:, my_realms:, direct_messages:)
   end
 
   private

@@ -10,7 +10,7 @@ module RubyUI
 
     def default_attrs
       {
-        class: 'rounded-xl border bg-background shadow',
+        class: 'rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm shadow-lg overflow-hidden',
       }
     end
   end
