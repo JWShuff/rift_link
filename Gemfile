@@ -31,7 +31,7 @@ gem 'solid_cable'
 gem 'bootsnap', require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem 'image_processing'
 
 gem 'dotenv', '~> 3.1'
 
@@ -39,7 +39,6 @@ gem 'literal'
 gem 'phlex-icons'
 
 gem 'active_storage-blurhash'
-gem 'image_processing'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -70,10 +69,9 @@ end
 
 gem 'authentication-zero', '~> 4.0'
 
-gem 'phlex-rails', '~> 2.1', :github => 'phlex-ruby/phlex-rails'
+gem 'phlex-rails', '~> 2.2', :github => 'phlex-ruby/phlex-rails'
 
 gem 'tailwind_merge', '~> 1.1'
 
 gem 'kube-dsl', '~> 0.8.3'
 
-gem "pg", "~> 1.5"
