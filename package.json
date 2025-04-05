@@ -1,5 +1,5 @@
 {
-  "name": "trashfirejs",
+  "name": "trashfire",
   "private": "true",
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.3",

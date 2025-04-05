@@ -18,7 +18,7 @@ console.log(
 
 // Example: Load Rails libraries in Vite.
 //
-import * as Turbo from '@hotwired/turbo'
+import * as Turbo from '@hotwired/turbo-rails'
 Turbo.start()
 //
 import * as ActiveStorage from "@rails/activestorage"
