@@ -46,9 +46,7 @@ git clone https://github.com/your-org/riftlink.git
 cd riftlink
 cp .env.sample .env
 bundle install
-yarn install
-# Skip if PG already available
-sudo apt install libpq-dev
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 bin/setup
 rails db:setup
 ```
